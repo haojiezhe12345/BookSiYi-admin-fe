@@ -1,0 +1,1 @@
+import{d as o,o as t,a as n,b as s,c as p,u as r}from"./index-7c7dea94.js";const h=o({__name:"root",setup(c){const a=r();return t(()=>{n.get("/admin/admin/getInfo").then(e=>{e.data.code==1?a.push({path:"/dashboard"}):a.push({path:"/login"})}).catch(()=>{a.push({path:"/login"})})}),(e,u)=>(s(),p("p",null,"Loading..."))}});export{h as default};
